@@ -1,0 +1,21 @@
+{
+  "name": "@lori/dankify",
+  "version": "1.0.0",
+  "description": "Dankify",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "dankify"
+  },
+  "keywords": [
+    "dankify"
+  ],
+  "author": "Lorraine Lee",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
+}
