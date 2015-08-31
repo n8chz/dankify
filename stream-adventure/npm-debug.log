@@ -1,0 +1,58 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'request' ]
+2 info using npm@2.13.0
+3 info using node@v0.10.31
+4 verbose install initial load of /var/www/javascript/dankify/package.json
+5 verbose installManyTop reading scoped package data from /var/www/javascript/dankify/node_modules/concat-stream/package.json
+6 verbose installManyTop reading scoped package data from /var/www/javascript/dankify/node_modules/split/package.json
+7 verbose installManyTop reading scoped package data from /var/www/javascript/dankify/node_modules/through2/package.json
+8 verbose readDependencies loading dependencies from /var/www/javascript/dankify/package.json
+9 silly cache add args [ 'request', null ]
+10 verbose cache add spec request
+11 silly cache add parsed spec { raw: 'request',
+11 silly cache add   scope: null,
+11 silly cache add   name: 'request',
+11 silly cache add   rawSpec: '',
+11 silly cache add   spec: '*',
+11 silly cache add   type: 'range' }
+12 silly addNamed request@*
+13 verbose addNamed "*" is a valid semver range for request
+14 silly addNameRange { name: 'request', range: '*', hasData: false }
+15 silly mapToRegistry name request
+16 silly mapToRegistry using default registry
+17 silly mapToRegistry registry http://localhost:15443/
+18 silly mapToRegistry uri http://localhost:15443/request
+19 verbose addNameRange registry:http://localhost:15443/request not in flight; fetching
+20 verbose request uri http://localhost:15443/request
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 01:29:37
+23 verbose request id 195d3e6601f798a8
+24 http request GET http://localhost:15443/request
+25 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+26 info attempt registry request try #2 at 01:29:47
+27 http request GET http://localhost:15443/request
+28 info retry will retry, error on last attempt: Error: connect ECONNREFUSED
+29 info attempt registry request try #3 at 01:30:47
+30 http request GET http://localhost:15443/request
+31 verbose stack Error: connect ECONNREFUSED
+31 verbose stack     at errnoException (net.js:904:11)
+31 verbose stack     at Object.afterConnect [as oncomplete] (net.js:895:19)
+32 verbose cwd /var/www/javascript/dankify/stream-adventure
+33 error Linux 3.2.0-60-lowlatency-pae
+34 error argv "node" "/usr/local/bin/npm" "install" "request"
+35 error node v0.10.31
+36 error npm  v2.13.0
+37 error code ECONNREFUSED
+38 error errno ECONNREFUSED
+39 error syscall connect
+40 error Error: connect ECONNREFUSED
+40 error     at errnoException (net.js:904:11)
+40 error     at Object.afterConnect [as oncomplete] (net.js:895:19)
+40 error  { [Error: connect ECONNREFUSED]
+40 error   code: 'ECONNREFUSED',
+40 error   errno: 'ECONNREFUSED',
+40 error   syscall: 'connect',
+40 error   parent: '@lori/dankify' }
+41 error If you are behind a proxy, please make sure that the
+41 error 'proxy' config is set properly.  See: 'npm help config'
+42 verbose exit [ 1, true ]
