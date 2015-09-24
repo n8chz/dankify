@@ -1,2 +1,3 @@
 node_modules
 learnyoumongo/data
+*.sw?
